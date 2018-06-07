@@ -2,4 +2,74 @@
 
 /* 回答はここに書いてね */
 
+.parent{
+  text-align: center;
+}
+.common{
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.text,.textarea,.button{
+  border-radius: 5px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+  color:#70d6e3;
+}
+
+input[type="text"]{
+  border: 1px solid #70d6e3;
+  outline: 0;
+}
+
+textarea{
+  border: 1px solid #70d6e3;
+  height: 40px;
+  font-size: 16px;
+  resize: none;
+}
+
+.select_box select{
+  background-color: #fff;
+  padding-left: 10px;
+  width: 80px;
+  height: 25px;
+  padding: 5px;
+  -webkit-appearance:none;
+}
+
+.select_box label{
+  position: relative;
+}
+
+.select_box label::after{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #ccc;
+  border-right: solid 2px #ccc;
+  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -4px;
+}
+
+button{
+  color:#70d6e3;
+  border: 1px solid #70d6e3;
+  cursor: pointer;
+}
+
+button:active{
+  color:#fff;
+  background-color: #70d6e3;
+  border: 1px solid #70d6e3;
+}
+
 /* 回答はここに書いてね */

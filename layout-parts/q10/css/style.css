@@ -1,5 +1,74 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:before,
+.clearfix:after{
+  display:block;
+  clear: both;
+  content: "";
+}
 
+.parent{
+  padding: 20px;
+  display: inline-block;
+  text-align: end;
+  width: 700px;
+  margin: 10px 30%;
+  background-color: #ecf1f2;
+}
+
+
+.form>h1{
+  position: absolute;
+  padding: 0px 20px;
+  float: left;
+  background-color: #ecf1f2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form>hr{
+  float: right;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.main_left,.main_right{
+  float: left;
+  margin: 20px;
+  width: 230px
+}
+
+.left_child_box{
+  margin-bottom: 25px;
+}
+
+.text:before{
+  content: "name";
+}
+
+.text>span,.email>span{
+  color: #f00;
+}
+
+.email:before{
+  content: "Email"
+}
+
+input,textarea{
+  border: none;
+}
+
+textarea{
+  resize: none;
+}
+
+input.submit{
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+}
 /* 回答はここに書いてね */

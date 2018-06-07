@@ -2,4 +2,50 @@
 
 /* 回答はここに書いてね */
 
+.parent{
+  display: block;
+  background-color: #ecf1f2;
+  max-width: 100%;
+  font-size: 0px;
+  padding: 10px;
+}
+
+
+.grid{
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #fff;
+  border-left: solid #ecf1f2 10px;
+  border-right: solid #ecf1f2 10px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.grid_12{
+  width: 100%;
+}
+
+.grid_6{
+  width: 50%;
+}
+
+.grid_4{
+  width: 33.3333%;
+}
+
+.grid_3{
+  width: 25%;
+}
+
+.grid_2_4{
+  width: 20%;
+}
+
+.grid_2{
+  width: 16.6666%;
+}
+
 /* 回答はここに書いてね */

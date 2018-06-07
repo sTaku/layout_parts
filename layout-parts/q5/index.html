@@ -33,7 +33,7 @@
         中央寄せするブロックの横幅が固定の場合は上の方法が、可変の場合は下の方法が向いています。
         -->
         <div class="q5__horizontal mb20">
-            <div class="q5__horizontal__box">
+            <div class="q5__horizontal__box test01">
                 <!--
                 ■この問題で使う大事なプロパティ
                 ・display
@@ -41,7 +41,7 @@
                 -->
                 <!-- Q5-1の回答はここに書いてね -->
                 <div>
-                    <p>text-align</p>
+                    <p class="text-align">text-align</p>
                 </div>
                 <!-- Q5-1の回答はここに書いてね -->
             </div>
@@ -51,7 +51,7 @@
                 ・margin
                 -->
                 <!-- Q5-1の回答はここに書いてね -->
-                <p>margin</p>
+                <p class="margin">margin</p>
                 <!-- Q5-1の回答はここに書いてね -->
             </div>
         </div>
@@ -76,9 +76,9 @@
         ・vertical-align
         -->
         <!-- Q5-2の回答はここに書いてね -->
-        <div class="q5__box">
-            <div class="q5__vertical__table__inner">
-                <p class="q5__vertical__table__txt">table</p>
+        <div class="q5__box table_parent">
+            <div class="q5__vertical__table__inner table_child">
+                <p class="q5__vertical__table__txt table_grandson">table</p>
             </div>
         </div>
         <!-- Q5-2の回答はここに書いてね -->
@@ -90,8 +90,8 @@
         ・justify-content
         -->
         <!-- Q5-2の回答はここに書いてね -->
-        <div class="q5__box">
-            <p>flex</p>
+        <div class="q5__box flex_parent">
+            <p class="flex flex_child">flex</p>
         </div>
         <!-- Q5-2の回答はここに書いてね -->
 
@@ -104,7 +104,7 @@
             ・margin
             -->
             <!-- Q5-2の回答はここに書いてね -->
-            <div class="q5__box__inner">
+            <div class="q5__box__inner position_parent position">
                 <p class="q5__box__inner--stable">position固定</p>
             </div>
             <!-- Q5-2の回答はここに書いてね -->
@@ -117,7 +117,7 @@
             ・transform
             -->
             <!-- Q5-2の回答はここに書いてね -->
-            <div class="q5__box__inner">
+            <div class="q5__box__inner transform_parent position">
                 <p class="q5__box__inner--flexible">position可変</p>
             </div>
             <!-- Q5-2の回答はここに書いてね -->
