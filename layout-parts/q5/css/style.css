@@ -7,7 +7,7 @@
   box-sizing: border-box;
   width: 90px;
 }
-.test01:first-child{
+.textaline_box:first-child{
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
   display: inline-block;
 }
 
-.flex_parent{
+.flex_parent {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,10 +47,10 @@
 
 
 
-.position{
+.position {
   position: relative;
 }
-.position_parent>p{
+.position_parent > p {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@
   margin: auto;
 }
 
-.transform_parent>p{
+.transform_parent > p {
   position: absolute;
   top: 50%;
   left: 50%;

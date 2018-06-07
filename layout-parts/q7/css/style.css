@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.parent{
+.parent {
   text-align: center;
 }
 .common{
@@ -10,7 +10,6 @@
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
-  padding: 5px;
 }
 
 .text,.textarea,.button{
@@ -18,27 +17,107 @@
 }
 
 input[type="text"]::-webkit-input-placeholder{
-  color:#70d6e3;
+  color: #00BCD4;
 }
 
-input[type="text"]{
-  border: 1px solid #70d6e3;
-  outline: 0;
+input[type="text"] {
+  border: 1px solid #00BCD4;
+  outline-color : #00BCD4;
+  padding: 5px;
 }
 
 textarea{
-  border: 1px solid #70d6e3;
+  border: 1px solid #00BCD4;
   height: 40px;
   font-size: 16px;
+  padding: 5px;
   resize: none;
+  outline: 0;
 }
+
+.radio {
+  display: none;
+}
+
+.radio_icon {
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px 5px 20px;
+}
+.radio_icon:hover {
+  cursor: pointer;
+}
+
+.radio_icon:before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.radio:checked + .radio_icon:after {
+  content: '';
+  position: absolute;
+  background-color: #00BCD4;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+}
+
+.checkbox_input {
+  display: none;
+}
+
+.check_icon:hover {
+  cursor: pointer;
+}
+
+.check_icon {
+  position: relative;
+  padding: 5px 5px 5px 20px;
+}
+
+.check_icon:before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  border: 1px solid #ccc;
+}
+
+.checkbox_input:checked + .check_icon:after {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 3px;
+  width: 15px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+}
+
 
 .select_box select{
   background-color: #fff;
   padding-left: 10px;
   width: 80px;
-  height: 25px;
   padding: 5px;
+  font-size: 14px;
+  outline: 0;
   -webkit-appearance:none;
 }
 
@@ -61,15 +140,16 @@ textarea{
 }
 
 button{
-  color:#70d6e3;
-  border: 1px solid #70d6e3;
+  color: #00BCD4;
+  border: 1px solid #00BCD4;
+  outline: 0;
   cursor: pointer;
 }
 
 button:active{
   color:#fff;
-  background-color: #70d6e3;
-  border: 1px solid #70d6e3;
+  background-color: #00BCD4;
+  outline: 0;
 }
 
 /* 回答はここに書いてね */

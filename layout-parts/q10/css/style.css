@@ -10,15 +10,15 @@
 
 .parent{
   padding: 20px;
-  display: inline-block;
   text-align: end;
   width: 700px;
-  margin: 10px 30%;
+  height: 270px;
+  margin: 0 auto;
   background-color: #ecf1f2;
 }
 
 
-.form>h1{
+.form > h1 {
   position: absolute;
   padding: 0px 20px;
   float: left;
@@ -27,48 +27,94 @@
   font-weight: bold;
 }
 
-.form>hr{
+.form > hr {
   float: right;
   border-bottom: 1px solid #ccc;
   width: 100%;
 }
 
-.main_left,.main_right{
+.main_left,.main_right {
   float: left;
-  margin: 20px;
-  width: 230px
+  margin: 15px;
+  width: 260px;
 }
 
-.left_child_box{
+.left_child_box {
   margin-bottom: 25px;
 }
 
-.text:before{
-  content: "name";
-}
-
-.text>span,.email>span{
+.text > span,.email > span {
   color: #f00;
 }
 
-.email:before{
-  content: "Email"
+.radio {
+  display: none;
 }
 
-input,textarea{
+.radio_icon {
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px 5px 20px;
+}
+.radio_icon:hover {
+  cursor: pointer;
+}
+
+.radio_icon:before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.radio:checked + .radio_icon:after {
+  content: '';
+  position: absolute;
+  background-color: #00BCD4;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+}
+
+input[type="text"] {
   border: none;
+  line-height: 20px;
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 3px;
+  outline: 0;
 }
 
-textarea{
+label {
+  margin:0 10px;
+}
+
+textarea {
+  padding: 10px;
+  border:none;
   resize: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline: 0;
 }
 
-input.submit{
+input.submit {
   background-color: #00bcd4;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;
   padding: 5px;
+  cursor: pointer;
+  outline: 0;
 }
 /* 回答はここに書いてね */

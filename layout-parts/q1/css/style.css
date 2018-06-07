@@ -8,24 +8,31 @@
   content: "";
 }
 
-.parent{
+.parent {
   width: 900px;
   padding: 20px;
   background-color: #eff3f4;
   margin: 0 auto;
 }
-.child{
-  margin: 20px 0px 20px 20px;
+.child {
+  margin-left: 20px;
   float: left;
-  width: 270px;
+  width: 230px;
   background-color: #3274ae;
+  padding: 20px;
 }
 
-.font{
-  margin: 20px;
-  border: 10px solid black;
-  padding: 20px;
+.child:first-child {
+  margin: 0;
+}
+
+.font_box {
   background-color: #eaf4ff;
+  padding: 20px;
+  border: 10px solid #022336;
+}
+
+.font {
   font-size: 16px;
   line-height: 16px;
 }

@@ -8,28 +8,25 @@
   content: "";
 }
 
-.parent{
+.parent {
   width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;
 }
 
-.half{
-}
-
-.img01{
+.first_image {
   float: left;
   margin: 0px 20px 10px 0px;
 }
 
-.img02{
+.second_image {
   float: right;
   margin: 0px 0px 10px 20px;
 }
 
 
-.font{
+.font {
   word-break: break-all;
   font-size: 18px;
   line-height: 22px;
