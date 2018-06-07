@@ -15,12 +15,12 @@
   padding: 20px;
 }
 
-.first_image {
+.left_image {
   float: left;
   margin: 0px 20px 10px 0px;
 }
 
-.second_image {
+.right_image {
   float: right;
   margin: 0px 0px 10px 20px;
 }
