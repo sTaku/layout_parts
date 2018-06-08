@@ -14,7 +14,7 @@
   border-radius: 30px;
 }
 
-.balloon:before{
+.balloon:before {
   content: "";
   position: absolute;
   bottom: -38px;
@@ -25,7 +25,7 @@
   z-index: 2;
 }
 
-.balloon:after{
+.balloon:after {
   content: "";
   position: absolute;
   bottom: -45px;
@@ -36,9 +36,7 @@
   z-index: 1;
 }
 
-.balloon   p {
-  margin: 0;
-  padding: 0;
+.balloon p {
   font-size: 16px;
   line-height: 16px;
 }

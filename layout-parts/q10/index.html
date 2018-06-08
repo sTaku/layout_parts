@@ -39,42 +39,40 @@
         <!-- 回答はここに書いてね -->
         <div class="contents">
             <div class="title_form">
-                <h1>Form Exercise</h1>
-                <hr>
+                <h1 class="title_text">Form Exercise</h1>
+                <hr class="title_line">
             </div>
-            <div class="clearfix">
-                <form method="get">
-                    <div class="left_box">
-                        <ul>
-                            <li class="left_child_box text">name
-                                <span> * </span>
-                                <input name="_name" type="text" required>
-                            </li>
-                            <li class="left_child_box">Sex
-                                <label>
-                                    <input class="radio" type="radio" name="radio">
-                                    <span class="radio_icon">male</span>
-                                </label>
-                                <label>
-                                    <input class="radio" type="radio" name="radio">
-                                    <span class="radio_icon">female</span>
-                                </label>
-                            </li>
-                            <li class="left_child_box email">Email
-                                <span> * </span>
-                                <input name="mail" type="text" placeholder="ex) hoge@gmail.com" required>
-                            </li>
-                            <li class="left_child_box">Telephone
-                                <input name="tel" type="text" placeholder="ex) 0801234567">
-                            </li>
-                        </ul>
-                        <div>
-                            <input type="submit" value="submit" class="submit">
-                        </div>
+            <form class="clearfix" method="get">
+                <div class="left_box">
+                    <ul>
+                        <li class="left_child_box text">name
+                            <span> * </span>
+                            <input name="_name" type="text" required>
+                        </li>
+                        <li class="left_child_box">Sex
+                             <label>
+                                <input class="radio" type="radio" name="radio">
+                                 <span class="radio_icon">male</span>
+                            </label>
+                            <label>
+                                <input class="radio" type="radio" name="radio">
+                                <span class="radio_icon">female</span>
+                            </label>
+                        </li>
+                        <li class="left_child_box email">Email
+                            <span> * </span>
+                            <input name="mail" type="text" placeholder="ex) hoge@gmail.com" required>
+                        </li>
+                        <li class="left_child_box">Telephone
+                            <input name="tel" type="text" placeholder="ex) 0801234567">
+                        </li>
+                    </ul>
+                    <div class="submit">
+                        <input type="submit" value="submit" class="submit_button">
                     </div>
-                    <textarea class="textarea" name="textarea" cols="55" rows="15" placeholder="Please fill in the message..."></textarea>
-                </form>
-            </div>
+                </div>
+                <textarea class="textarea" name="textarea" placeholder="Please fill in the message..."></textarea>
+            </form>
         </div>
         <!-- 回答はここに書いてね -->
     </div>

@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 .clearfix:before,
-.clearfix:after{
+.clearfix:after {
   display:block;
   clear: both;
   content: "";
@@ -17,30 +17,31 @@
 
 .title_form {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.title_form > h1 {
-  position: absolute;
-  padding: 0px 20px;
-  float: left;
-  top: -10px;
+.title_text {
+  position: relative;
+  display: inline;
   background-color: #ecf1f2;
+  padding-right: 10px;
   font-size: 24px;
   font-weight: bold;
+  z-index: 2;
 }
 
-.title_form > hr {
-  border-bottom: 0px solid #ccc;
+.title_line {
+  position: absolute;
   width: 100%;
-  margin-top: 10px;
+  top: 3px;
+  z-index: 1;
 }
 
 .left_box {
   float: left;
   text-align: end;
-  margin-left: 30px;
-  width: 270px;
+  display: inline-block;
+  width: 47%;
 }
 
 .left_child_box {
@@ -102,18 +103,26 @@ label {
 }
 
 .textarea {
+  float: right;
+  display: inline-block;
   padding: 10px;
   border:none;
   resize: none;
   box-sizing: border-box;
   border-radius: 3px;
   outline: 0;
-  margin-left: 30px;
+  width: 50%;
+  height: 210px;
 }
 
 .submit {
+  text-align: end;
+}
+
+.submit_button {
   background-color: #00bcd4;
   color: #fff;
+  text-align: end;
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;

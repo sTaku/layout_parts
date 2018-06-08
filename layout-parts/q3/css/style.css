@@ -11,7 +11,7 @@
   border: 1px solid #dedede;
 }
 
-th {
+.eat_record th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -19,21 +19,21 @@ th {
   padding: 10px;
 }
 
-tr:nth-child(odd) {
+.eat_record tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.eat_record tr:last-child {
   border-top:2px dashed #000;
 }
 
-td {
+.eat_record td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
 }
 
-th, td {
+.eat_record th,.eat_record td {
   border: 1px solid #dedede;
 }
 

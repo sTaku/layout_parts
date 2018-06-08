@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 .clearfix:before,
-.clearfix:after{
+.clearfix:after {
   display: block;
   clear: both;
   content: "";
